@@ -1,0 +1,65 @@
+.footer {
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+
+	.wrapper {
+		padding: 2em 1em;
+
+		.footer-links {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+
+			.footer-link {
+				h4 {
+					font-size: 1.5em;
+				}
+				ul {
+					li {
+						margin: 2em 0;
+
+						a {
+							color: rgb(127, 123, 123);
+						}
+					}
+				}
+			}
+		}
+
+		.other-links {
+			.social-media {
+				display: flex;
+				gap: 1em;
+				margin: 2em 0;
+
+				i {
+					border-radius: 50px;
+					font-size: 2em;
+				}
+			}
+			.policies {
+				margin: 1.5em 0;
+				ul {
+					display: flex;
+					gap: 1em;
+
+					li {
+						border-right: 1px solid rgb(112, 109, 109);
+						padding-right: 1em;
+
+						&:nth-of-type(4) {
+							border: none;
+						}
+					}
+				}
+			}
+
+			.copyright {
+				.cp {
+					font-size: 0.9em;
+					color: rgb(112, 109, 109);
+				}
+			}
+		}
+	}
+}

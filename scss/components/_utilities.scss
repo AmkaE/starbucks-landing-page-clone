@@ -1,0 +1,49 @@
+.border {
+	&-red {
+		border: 1px solid red;
+	}
+	&-yellow {
+		border: 1px solid yellow;
+	}
+	&-blue {
+		border: 1px solid blue;
+	}
+	&-black {
+		border: 1px solid black;
+	}
+	&-white {
+		border: 1px solid white;
+	}
+	&-green {
+		border: 1px solid green;
+	}
+}
+
+.round {
+	border-radius: 50px;
+}
+
+.corners {
+	&-5 {
+		border-radius: 5px;
+	}
+
+	&-10 {
+		border-radius: 5px;
+	}
+}
+
+.clr-white {
+	color: #fff;
+}
+
+.clr-black {
+	color: #000;
+}
+
+.line {
+	border-bottom: 2px solid rgb(127, 123, 123, 0.5);
+	border-radius: 50px;
+	width: 100%;
+	margin-bottom: 2em;
+}

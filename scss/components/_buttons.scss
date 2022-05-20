@@ -1,0 +1,19 @@
+.btn {
+	padding: 0.6em 1em;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.1em;
+	font-weight: 500;
+	cursor: pointer;
+
+	&-dark {
+		background: #000;
+		color: #fff;
+	}
+
+	&-primary {
+		background: rgb(0, 117, 250);
+		color: #fff;
+	}
+}
